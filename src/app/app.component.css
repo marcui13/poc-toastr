@@ -1,0 +1,6 @@
+/* styles.css */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.btn-success, .btn-danger, .btn-info, .btn-warning{
+    width: 200px;
+}
