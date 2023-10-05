@@ -1,27 +1,55 @@
-# PocToastr
+## Features and Functionality
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+PocToastr is a proof-of-concept Angular application that showcases the use of the ngx-toastr library to display customizable notifications. It demonstrates various features and functionalities, including:
 
-## Development server
+### Notification Types
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Success Notifications:** Display success messages with indefinite duration and a close button. They appear at the top-right corner of the screen.
 
-## Code scaffolding
+2. **Warning Notifications:** Show warning messages with a 5-second duration and no option to close. They appear at the top-left corner of the screen.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Info Notifications:** Present informative messages with indefinite duration and a close button. They appear at the bottom-right corner of the screen.
 
-## Build
+4. **Error Notifications:** Display error messages with a 10-second duration and a close button. They appear at the bottom-left corner of the screen.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Toastr Integration
 
-## Running unit tests
+- Demonstrates integration with the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
+- Configures toastr notifications with various options, including duration, position, and close button availability.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Bootstrap Integration
 
-## Running end-to-end tests
+- Integrates the Bootstrap framework for styling and UI components.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Angular CLI Commands
 
-## Further help
+- Utilizes Angular CLI for development, including commands like `ng serve`, `ng build`, `ng test`, and `ng e2e`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Easy Customization
+
+- Allows easy customization of notification styles and behavior through Angular components and configuration.
+
+### Testing
+
+- Includes unit tests via [Karma](https://karma-runner.github.io/) and end-to-end tests.
+
+## Getting Started
+
+Follow these steps to get started with PocToastr:
+
+1. Clone the repository: `git clone <repository-url>`
+2. Install dependencies: `npm install`
+3. Run the development server: `ng serve`
+4. Open your browser and navigate to `http://localhost:4200/`
+
+Feel free to explore and interact with the different notification types and their behaviors.
+
+## Building the Project
+
+To build the project for production use, run `ng build`. The build artifacts will be located in the `dist/` directory.
+
+## Running Tests
+
+You can run unit tests using `ng test` and end-to-end tests using `ng e2e`. Be sure to follow the respective instructions to set up your testing environment.
+
+For more information on Angular CLI commands and options, refer to the [Angular CLI Documentation](https://angular.io/cli).
